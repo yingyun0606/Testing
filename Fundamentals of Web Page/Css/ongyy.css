@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+/* p {
+    background-color: lightgoldenrodyellow;
+} */
+
+body {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+}
+
+.anyClassName {
+    background-color: rgb(255, 212, 218);
+    color: palevioletred;
+    font-size: 30px;
+    font-family: "Anton", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.aaa {
+    background-color: lightcyan;
+    font-size: 50px;
+    color: rgb(117, 156, 156);
+    font-style: italic;
+    font-family: "Crimson Text", serif;
+}
+
+.bbb {
+    background-color: bisque;
+    font-size: 45px
+}
+
+.ccc {
+    background-color: rgb(143, 164, 188);
+    font-size: 40px
+}
+
+.ddd {
+    background-color: lightblue;
+    font-size: 35px
+}
+
+.eee {
+    background-color: lavender;
+    font-size: 30px
+}
+
+.fff {
+    background-color: mistyrose;
+    font-size: 25px
+}
+
+.ggg {
+    background-color: lightyellow;
+    font-size: 35px
+}
+
+.jacksonpicture {
+    background-color: lightcyan;
+    height: 670px;
+    width: 450px;
+    background-image: url("../Img/JacksonWang2-vogue-8apr20-PR-680x1020.jpg");
+    background-size: 150px;
+    background-repeat: repeat;
+    background-position: center;
+    /* border-style: dotted;
+    border-width: 8px;
+    border-color: blanchedalmond; */
+    border: dotted cornsilk 20px;
+    border-radius: 20%;
+}
+
+.jackson {
+    background-color: midnightblue;
+    color: lightcyan;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+    text-transform: uppercase;
+    position: sticky;
+    top: 10px;
+    z-index: 999;
+}
+
+.week4 {
+    background-color: lightpink;
+    width: 500px;
+    height: 200px;
+    margin: 50px;
+    padding-top: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.week4_1 {
+    background-color: beige;
+    width: 500px;
+    height: 200px;
+}
+
+.week4_2 {
+    background-color: palevioletred;
+    font-size: 50px;
+    padding: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    color: firebrick;
+    text-align: center;
+}
+
+.week4_3 {
+    background-color: lightgoldenrodyellow;
+    font-size: 30px;
+    color: navy;
+    font-style: oblique;
+    font-family: "Bitter", serif;
+    text-align: center;
+    margin-top: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ul {
+    list-style-type: circle;
+} */
+
+ul {
+    list-style-image: url("../Img/loopy2.png");
+}
+
+.navBar li {
+    float: left;
+    background-color: rgb(212, 145, 165);
+    margin-left: 200px;
+}
+
+table {
+    width: 100%;
+    border: 2px solid saddlebrown;
+}
+
+td {
+    border: 2px solid salmon;
+}
+
+.week6 {
+    width: 50%;
+    height: 50%;
+    background-color: darkcyan;
+    position: relative;
+    top: 50px;
+    left: 50px;
+}
+
+.week6_1 {
+    width: 50%;
+    height: 50%;
+    background: rgb(120, 141, 208);
+    background: linear-gradient(90deg, rgba(120, 141, 208, 1) 0%, rgba(89, 171, 227, 1) 35%, rgba(150, 213, 141, 1) 100%);
+    position: sticky;
+    top: 50px;
+    left: 50px;
+}
+
+.inputClass {
+    width: 500px;
+    font-size: 20px;
+    color: rgb(44, 41, 41);
+    background-color: rgb(221, 219, 201);
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/* .red {
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    transition: all 0.4s;
+} */
+
+.red {
+    width: 300px;
+    height: 300px;
+    background-color: rgb(207, 119, 141);
+    transition-property: all;
+    transition-duration: 1s;
+    /* transition-delay: 2s; */
+    transition-timing-function: cubic-bezier(0.86, -0.08, 0.22, 1.16);
+    transition-timing-function: ease-in-out;
+    /* animation-name: abc;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease-in;
+    animation-direction: alternate; */
+    /* animation-fill-mode: forwards; */
+}
+
+@keyframes abc {
+    0% {
+        width: 100px;
+        height: 100px;
+    }
+
+    60% {
+        width: 400px;
+        height: 400px;
+    }
+
+    100% {
+        width: 800px;
+        height: 400px;
+    }
+}
+
+.red:hover {
+    width: 500px;
+    height: 500px;
+    background-color: rgb(153, 71, 95);
+}
+
+.green {
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+    transition: all 1s;
+}
+
+.red:hover .green {
+    width: 200px;
+    height: 200px;
+    background-color: darkgreen;
+}
